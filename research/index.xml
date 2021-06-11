@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Researches on Personal Page</title>
     <link>https://ericzhng.github.io/research/</link>
     <description>Recent content in Researches on Personal Page</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://ericzhng.github.io/research/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://ericzhng.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CLoVER transducer for strain sensing</title>
       <link>https://ericzhng.github.io/research/portfolio-3-clover/</link>
@@ -45,7 +41,8 @@
       <guid>https://ericzhng.github.io/research/portfolio-2-nrb/</guid>
       <description>Non-reflective boundary techniques are typically used in simulation to reduce boundary reflections and reduce model size. The non-reflective boundary conditions and boundary layer methods are developed and implemented in UM-LISA to faciliate simulation so that users can focus on the area of interest while avoiding boundary interferences.
 The current implementation of NRB techniques implemented in UM-LISA are illustrated below
-The following picture shows the performance of different NRB techniques.</description>
+The following picture shows the performance of different NRB techniques.
+For more information about the algorithm and features, please check the following references.</description>
     </item>
     
     <item>
@@ -63,7 +60,8 @@ The following picture shows the performance of different NRB techniques.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ericzhng.github.io/research/portfolio-1-lisa/</guid>
-      <description>One field of research in Structural Health Monitoring (SHM) is relevant to guided wave modeling and simulation. An in-house code has been developed at the University of Michigan, with abundant features for wave simulation such as non-reflective boundary (NRB) techniques, piezoelectric coupled, contact dynamics, multiple GPU parallelization, etc. The code is running on a multiple-GPU platform and is demonstrated to be much more efficient than commericial Finite Element software.</description>
+      <description>One field of research in Structural Health Monitoring (SHM) is relevant to guided wave modeling and simulation. An in-house code has been developed at the University of Michigan, with abundant features for wave simulation such as non-reflective boundary (NRB) techniques, piezoelectric coupled, contact dynamics, multiple GPU parallelization, etc. The code is running on a multiple-GPU platform and is demonstrated to be much more efficient than commericial Finite Element software.
+The algorihtm we adopted is Local Interacation Simulation Approach (LISA), a finite difference solver proposed by P.</description>
     </item>
     
     <item>

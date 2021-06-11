@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en-us">
+<html class="no-js" lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,21 +7,26 @@
 	<title>New kinematic notation and automatic generation of symbolic dynamics equations for space robots - Personal Page</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-	<meta property="og:title" content="New kinematic notation and automatic generation of symbolic dynamics equations for space robots" />
+		<meta property="og:title" content="New kinematic notation and automatic generation of symbolic dynamics equations for space robots" />
 <meta property="og:description" content="To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The work is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ericzhng.github.io/research/portfolio-7-space-rbot/" />
+<meta property="og:url" content="https://ericzhng.github.io/research/portfolio-7-space-rbot/" /><meta property="article:section" content="research" />
 
 
-	<meta name="twitter:card" content="summary"/>
+
+
+		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="New kinematic notation and automatic generation of symbolic dynamics equations for space robots"/>
 <meta name="twitter:description" content="To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The work is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases."/>
 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/custom.css">
+
 	<link rel="shortcut icon" href="/favicon.ico">
 		
 <script type="application/javascript">
@@ -39,13 +44,18 @@ if (!doNotTrack) {
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
-	<div class="container">
-		<div class="logo">
-			<a class="logo__link" href="/" title="Personal Page" rel="home">
-				<div class="logo__title">Personal Page</div>
-				<div class="logo__tagline">HUI ZHANG</div>
-			</a>
-		</div>
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/" title="Personal Page" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/img/psn-logo.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">Personal Page</div>
+					<div class="logo__tagline">ERIC ZHANG</div>
+				</div>
+		</a>
+	</div>
 		
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
@@ -53,28 +63,60 @@ if (!doNotTrack) {
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="/about/">about</a>
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">about</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/research/">research</a>
+			<a class="menu__link" href="/research/">
+				
+				<span class="menu__text">research</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/publication/">publication</a>
+			<a class="menu__link" href="/publication/">
+				
+				<span class="menu__text">publication</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/posters/">poster</a>
+			<a class="menu__link" href="/posters/">
+				
+				<span class="menu__text">poster</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/teaching/">Teaching</a>
+			<a class="menu__link" href="/teaching/">
+				
+				<span class="menu__text">Teaching</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/life/">Life</a>
+			<a class="menu__link" href="/life/">
+				
+				<span class="menu__text">Life</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/setup/">setup</a>
+			<a class="menu__link" href="/setup/">
+				
+				<span class="menu__text">setup</span>
+				
+			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="https://ericzhng.github.io/psn-blogs/">blog</a>
+			<a class="menu__link" href="https://ericzhng.github.io/psn-blogs/">
+				
+				<span class="menu__text">blog</span>
+				
+			</a>
 		</li>
 	</ul>
 </nav>
@@ -88,18 +130,14 @@ if (!doNotTrack) {
 	<article class="post">
 		<header class="post__header">
 			<h1 class="post__title">New kinematic notation and automatic generation of symbolic dynamics equations for space robots</h1>
-			
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Hui Zhang</span>
+</div></div>
 		</header><div class="content post__content clearfix">
-			
-
-<p>To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The work is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases. It is then demonstrated through an example the advantages such as flexible assignment of frames on space robots, being able to describe multi-DOF joint and achieve a consistent description for multi-arm space robots. For the second part, we adopt the Lagrangian Formulation for forming the procedures to automatically generate the dynamics equations of space robots in symbolic forms. An example is then provided to demonstrate the effectiveness of closed-loop simulation adopting the obtained symbolic equations.</p>
-
-<p><img src="/images/robots.png" alt="**here**." /></p>
-
+			<p>To verify and evaluate the performance of a space robot controller, kinematics and dynamics of the system have to be formed beforehand for computer simulation. The work is devoted to develop a new kinematic notation for space robots and to come up with an open source of Matlab subroutines for the propose of obtaining the proper dynamics equations of space robots in symbolic forms automatically. For the new kinematic notation, we will present the general form and two special cases. It is then demonstrated through an example the advantages such as flexible assignment of frames on space robots, being able to describe multi-DOF joint and achieve a consistent description for multi-arm space robots. For the second part, we adopt the Lagrangian Formulation for forming the procedures to automatically generate the dynamics equations of space robots in symbolic forms. An example is then provided to demonstrate the effectiveness of closed-loop simulation adopting the obtained symbolic equations.</p>
+<p><img src="/images/robots.png" alt="here."></p>
 <p>For more information about the algorithm and features, please check the following references.</p>
-
 <h2 id="references">References</h2>
-
 <ol>
 <li>Hui Zhang, Yingmin Jia, Junping Du, Jun Zhang, &ldquo;New kinematic notation and automatic generation of symbolic dynamics equations for space robots,&rdquo; Control Conference (CCC), 2014 33rd Chinese, pp.8341, 8346, 28-30 (2014).</li>
 </ol>
@@ -120,6 +158,20 @@ if (!doNotTrack) {
 	</div>
 </div>
 
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/research/portfolio-2-nrb/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Non-reflective boundary techniques in UM-LISA</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/research/portfolio-6-damage/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Damage characterization based on nonlinear guided wave simulation and chirplet matching pursuit algorithm</p>
+		</a>
+	</div>
+</nav>
 
 <section class="comments">
 	<div id="disqus_thread"></div>
@@ -152,13 +204,14 @@ if (!doNotTrack) {
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2019 HUI ZHANG.
+			&copy; 2021 HUI ZHANG.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
 </footer>
 	</div>
 <script async defer src="/js/menu.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>
